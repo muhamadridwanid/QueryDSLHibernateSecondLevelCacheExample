@@ -19,7 +19,7 @@ public class AuthorController {
     private AuthorService authorService;
 
     @GetMapping
-    private Page<AuthorReport> getAuthor(Pageable pageable) {
+    public Page<AuthorReport> getAuthor(Pageable pageable) {
         return authorService.getAllAuthor(pageable);
     }
 
