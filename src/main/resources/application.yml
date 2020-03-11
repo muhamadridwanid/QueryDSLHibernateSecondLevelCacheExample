@@ -1,0 +1,28 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost/dbcoba
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      use-new-id-generator-mappings: false
+
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: false
+
+        javax.cache:
+          provider: org.ehcache.jsr107.EhcacheCachingProvider
+          missing_cache_strategy: create
+
+        cache:
+          use_second_level_cache: true
+          use_query_cache: true
+          region.factory_class: org.hibernate.cache.jcache.JCacheRegionFactory
