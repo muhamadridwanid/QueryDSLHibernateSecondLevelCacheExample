@@ -1,6 +1,6 @@
 ### QueryDSL Hibernate Second Level Cache Example
 
-- Hibernate second level with ehcache
+- Hibernate second level cache with ehcache
 - QueryDSL
 - Spring Data Jpa Projection with enabled 2nd level cache
 - QueryDSL Projection with enabled 2nd level cache
