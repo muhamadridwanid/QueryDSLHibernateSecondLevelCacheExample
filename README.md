@@ -3,10 +3,10 @@
 - Hibernate second level cache with ehcache
 - Spring Data Jpa with additional Repository
 - QueryDSL
-- Spring Data Jpa Projection with enabled 2nd level cache
-- QueryDSL Projection with enabled 2nd level cache
-- QueryDSL Dynamic filtering and ordering
-- QueryDSL Pagination  
+- Spring Data Jpa projection with 2nd level cache enabled
+- QueryDSL projection with 2nd level cache enabled
+- QueryDSL with dynamic filtering and ordering
+- QueryDSL pagination  
 
 Happy Coding :-)
 
